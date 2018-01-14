@@ -290,6 +290,22 @@ li.tag-4 { font-size: 110%; margin: 0 1em; }
   margin: 1em auto;
 }
 
+/* Translations list */
+
+nav.translations {
+    padding-bottom: 1em;
+}
+
+nav.translations > ul {
+    display: inline;
+    padding: 0;
+    margin-left: 0.5em;
+}
+
+nav.translations li {
+    display: inline;
+}
+
 /* Light TinyTypo overrides */
 
 /* box border color */
