@@ -320,6 +320,10 @@ nav.translations li {
   margin-top: 0;
 }
 
+/* Do not append [lang] in the translations list */
+a[hreflang][rel="alternate"]:after {
+    content: unset;
+}
 
 /* Responsive */
 
