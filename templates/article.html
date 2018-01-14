@@ -25,7 +25,10 @@
 	<article class="full">
 		
 		<h1>{{ article.title }}</h1>
-		
+
+		{% import 'translations.html' as translations with context %}
+		{{ translations.translations_for(page) }}
+
 		{% include 'metadata.inc.html' %}
 		
 		{{ article.content }}	
